@@ -1,0 +1,14 @@
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\bin\Debug\net7.0\GoNavals.Domain.deps.json
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\bin\Debug\net7.0\GoNavals.Domain.runtimeconfig.json
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\bin\Debug\net7.0\GoNavals.Domain.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\bin\Debug\net7.0\GoNavals.Domain.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.csproj.AssemblyReference.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.AssemblyInfoInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.AssemblyInfo.cs
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.csproj.CoreCompileInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\refint\GoNavals.Domain.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\GoNavals.Domain.genruntimeconfig.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Domain\obj\Debug\net7.0\ref\GoNavals.Domain.dll

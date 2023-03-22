@@ -1,0 +1,12 @@
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\bin\Debug\net7.0\GoNavals.Core.deps.json
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\bin\Debug\net7.0\GoNavals.Core.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\bin\Debug\net7.0\GoNavals.Core.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.csproj.AssemblyReference.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.AssemblyInfoInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.AssemblyInfo.cs
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.csproj.CoreCompileInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\refint\GoNavals.Core.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\GoNavals.Core.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.Core\obj\Debug\net7.0\ref\GoNavals.Core.dll
