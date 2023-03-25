@@ -26,5 +26,8 @@ namespace GoNavals.Domain
         }
 
         public DbSet<Ciudad> Ciudad { get; set; }
+        public DbSet<Color> Color { get; set; }
+        public DbSet<Comandancia> Comandancia { get; set; }
+
     }
 }

@@ -13,7 +13,7 @@ namespace GoNavals.API.Services.Ciudad
             _dbContext = dbContext;
         }
 
-        public async Task<List<Domain.Ciudad>> AddCiudad(Domain.Ciudad ciudadParameter)
+        public async Task<List<Domain.Ciudad>?> AddCiudad(Domain.Ciudad ciudadParameter)
         {
             await _dbContext.Ciudad.AddAsync(ciudadParameter);
 
@@ -22,7 +22,7 @@ namespace GoNavals.API.Services.Ciudad
             return _ciudad;
         }
 
-        public async Task<List<Domain.Ciudad>> DeleteCiudad(int id)
+        public async Task<List<Domain.Ciudad>?> DeleteCiudad(int id)
         {
             var ciudad =  await _dbContext.Ciudad.FindAsync(id);
 
@@ -35,12 +35,12 @@ namespace GoNavals.API.Services.Ciudad
             return _ciudad;
         }
         //
-        public async Task<List<Domain.Ciudad>> GetAllCiudades()
+        public async Task<List<Domain.Ciudad>?> GetAllCiudades()
         {
             return await _dbContext.Ciudad.ToListAsync(); ;
         }
 
-        public  async Task<Domain.Ciudad> GetSingleCiudad(int id)
+        public  async Task<Domain.Ciudad?> GetSingleCiudad(int id)
         {
             var ciudad = await _dbContext.Ciudad.FindAsync(id);
 
@@ -50,7 +50,7 @@ namespace GoNavals.API.Services.Ciudad
             return ciudad;
         }
 
-        public async Task<List<Domain.Ciudad>> UpdateCiudad(int id,Domain.Ciudad requestCiudad)
+        public async Task<List<Domain.Ciudad>?> UpdateCiudad(int id,Domain.Ciudad requestCiudad)
         {
             var ciudad = await _dbContext.Ciudad.FindAsync(id);
             if (ciudad is null)

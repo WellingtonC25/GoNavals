@@ -42,6 +42,22 @@ namespace GoNavals.Domain.Migrations
                     b.ToTable("Ciudad");
                 });
 
+            modelBuilder.Entity("GoNavals.Domain.Color", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Color");
+                });
+
             modelBuilder.Entity("GoNavals.Domain.Pais", b =>
                 {
                     b.Property<int>("Id")
