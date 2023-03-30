@@ -30,6 +30,9 @@ namespace GoNavals.API.Controllers
         {
            var ciudad = await _ciudad.GetSingleCiudad(id);
             
+            if(ciudad is null)
+                return NotFound("Esta ciudad no existe");
+            
             return Ok(ciudad) ;
         }
 
@@ -37,8 +40,12 @@ namespace GoNavals.API.Controllers
         [HttpPost]
         public async Task<ActionResult<List<Ciudad>>> AddCiudad(Ciudad ciudadParameter)
         {
-            await _ciudad.AddCiudad(ciudadParameter);
-            return Ok(_ciudad);
+            var ciudad = await _ciudad.AddCiudad(ciudadParameter);
+            if (ciudad is null)
+
+                return NotFound("Esta ciudad no existe");
+
+            return Ok(ciudad);
         }
 
         // PUT api/<CiudadController>/5

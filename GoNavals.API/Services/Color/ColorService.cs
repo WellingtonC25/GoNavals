@@ -12,7 +12,7 @@ namespace GoNavals.API.Services.Color
         {
             _dataContext = dataContext;
         }
-        public async Task<IEnumerable<Domain.Color>?> DeleteColor(int id)
+        public async Task<Domain.Color?> DeleteColor(int id)
         {
             var result = await _dataContext.Color.FindAsync(id);
 
@@ -24,7 +24,7 @@ namespace GoNavals.API.Services.Color
              _dataContext.Remove(result);
              await _dataContext.SaveChangesAsync();
 
-            return _colores;
+            return result;
         }
 
         public async Task<IEnumerable<Domain.Color>?> GetAllColores()
@@ -52,16 +52,16 @@ namespace GoNavals.API.Services.Color
             return color;
         }
 
-        public async Task<IEnumerable<Domain.Color>?> AddColor(Domain.Color color)
+        public async Task<Domain.Color?> AddColor(Domain.Color color)
         {
             var result = await _dataContext.AddAsync(color);
 
             await _dataContext.SaveChangesAsync();
 
-            return _colores;
+            return result.Entity;
         }
 
-        public async Task<IEnumerable<Domain.Color>?> UpdateColor(int id, Domain.Color color)
+        public async Task<Domain.Color?> UpdateColor(int id, Domain.Color color)
         {
             var result = await _dataContext.Color.FindAsync(id);
 
@@ -74,7 +74,7 @@ namespace GoNavals.API.Services.Color
 
             await _dataContext.SaveChangesAsync();
 
-            return _colores;
+            return result;
         }
     }
 }

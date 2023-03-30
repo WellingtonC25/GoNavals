@@ -7,13 +7,12 @@ namespace GoNavals.API.Services.Comandancia
     public class ComandanciaService : IComandanciaService
     {
         private readonly DataContext _dataContext;
-        List<Domain.Comandancia> _comandancias = new List<Domain.Comandancia>();
-
+       
         public ComandanciaService(Domain.DataContext dataContext)
         {
             _dataContext = dataContext;
         }
-        public async Task<IEnumerable<Domain.Comandancia>?> AddComandancia(Domain.Comandancia comandancia)
+        public async Task<Domain.Comandancia?> AddComandancia(Domain.Comandancia comandancia)
         {
             var comandanciaResult = await _dataContext.Comandancia.AddAsync(comandancia);
 
@@ -22,10 +21,10 @@ namespace GoNavals.API.Services.Comandancia
 
             await _dataContext.SaveChangesAsync();
             
-            return _comandancias;
+            return comandanciaResult.Entity;
         }
 
-        public async Task<IEnumerable<Domain.Comandancia>?> DeleteComandancia(int id)
+        public async Task<Domain.Comandancia?> DeleteComandancia(int id)
         {
             var comandancia = await _dataContext.Comandancia.FindAsync(id);
 
@@ -35,7 +34,7 @@ namespace GoNavals.API.Services.Comandancia
             _dataContext.Remove(comandancia);
             await _dataContext.SaveChangesAsync();
 
-            return _comandancias;
+            return comandancia;
         }
 
         public async Task<IEnumerable<Domain.Comandancia>?> GetAllComandancias()
@@ -59,7 +58,7 @@ namespace GoNavals.API.Services.Comandancia
             return comandancia;
         }
 
-        public async Task<IEnumerable<Domain.Comandancia>?> UpdateComandancia(int id, Domain.Comandancia comandancia)
+        public async Task<Domain.Comandancia?> UpdateComandancia(int id, Domain.Comandancia comandancia)
         {
             if (_dataContext.Comandancia is null)
                 return null;
@@ -71,7 +70,7 @@ namespace GoNavals.API.Services.Comandancia
 
             await _dataContext.SaveChangesAsync();
 
-            return _comandancias;
+            return comandanciaResult;
         }
     }
 }

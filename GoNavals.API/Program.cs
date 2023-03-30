@@ -1,5 +1,8 @@
 using GoNavals.API.Services.Ciudad;
 using GoNavals.API.Services.Color;
+using GoNavals.API.Services.Comandancia;
+using GoNavals.API.Services.Comandante;
+using GoNavals.API.Services.ComandanteComandancia;
 using Microsoft.EntityFrameworkCore.Query.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +15,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ICiudadService, CiudadService>();
 builder.Services.AddScoped<IColorService, ColorService>();
+builder.Services.AddScoped<IComandanciaService, ComandanciaService>();
+builder.Services.AddScoped<IComandanteService, ComandanteService>();
+builder.Services.AddScoped<IComandanteComandanciaService, ComandanteComandanciaService>();
 builder.Services.AddDbContext<GoNavals.Domain.DataContext>();
 
 var app = builder.Build();
