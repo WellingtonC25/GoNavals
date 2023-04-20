@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GoNavals.Domain;
-using GoNavals.API.Services.Color;
+using GoNavals.Core;
+using GoNavals.Core.Interfaces;
 
 namespace GoNavals.API.Controllers
 {

@@ -28,6 +28,18 @@ namespace GoNavals.Domain
         public DbSet<Ciudad> Ciudad { get; set; }
         public DbSet<Color> Color { get; set; }
         public DbSet<Comandancia> Comandancia { get; set; }
+        public DbSet<Comandante> Comandante { get; set; }
+        public DbSet<ComandanteComandancia> ComandanteComandancia { get; set; }
+        public DbSet<Constructora> Constructora { get; set; }
+        public DbSet<Curso> Curso { get; set; }
+        public DbSet<Embarcacion> Embarcacion { get; set; }
+        public DbSet<Ocupacion> Ocupacion { get; set; }
+        public DbSet<Pais> Pais { get; set; }
+        public DbSet<Propietario> Propietario { get; set; }
+        public DbSet<Puerto> Puerto { get; set; }
+        public DbSet<Rango> Rango { get; set; }
+        public DbSet<TipoUso> TipoUso { get; set; }
+        public DbSet<Zona> Zona { get; set; }
 
     }
 }

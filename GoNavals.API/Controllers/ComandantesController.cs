@@ -1,4 +1,5 @@
-﻿using GoNavals.API.Services.Comandante;
+﻿using GoNavals.Core;
+using GoNavals.Core.Interfaces;
 using GoNavals.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;

@@ -3803,6 +3803,32 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "GoNavals.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GoNavals.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoNavals.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoNavals.BusinessLogic.dll": {}
+        }
+      },
+      "GoNavals.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "GoNavals.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GoNavals.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoNavals.Core.dll": {}
+        }
+      },
       "GoNavals.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11126,6 +11152,16 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "GoNavals.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../GoNavals.BusinessLogic/GoNavals.BusinessLogic.csproj",
+      "msbuildProject": "../GoNavals.BusinessLogic/GoNavals.BusinessLogic.csproj"
+    },
+    "GoNavals.Core/1.0.0": {
+      "type": "project",
+      "path": "../GoNavals.Core/GoNavals.Core.csproj",
+      "msbuildProject": "../GoNavals.Core/GoNavals.Core.csproj"
+    },
     "GoNavals.Domain/1.0.0": {
       "type": "project",
       "path": "../GoNavals.Domain/GoNavals.Domain.csproj",
@@ -11134,6 +11170,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "GoNavals.BusinessLogic >= 1.0.0",
+      "GoNavals.Core >= 1.0.0",
       "GoNavals.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Microsoft.EntityFrameworkCore >= 7.0.4",
@@ -11171,6 +11209,12 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.BusinessLogic\\GoNavals.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.BusinessLogic\\GoNavals.BusinessLogic.csproj"
+            },
+            "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.Core\\GoNavals.Core.csproj": {
+              "projectPath": "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.Core\\GoNavals.Core.csproj"
+            },
             "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.Domain\\GoNavals.Domain.csproj": {
               "projectPath": "C:\\Users\\well-\\source\\repos\\Embarcaciones\\GoNavals\\GoNavals.Domain\\GoNavals.Domain.csproj"
             }

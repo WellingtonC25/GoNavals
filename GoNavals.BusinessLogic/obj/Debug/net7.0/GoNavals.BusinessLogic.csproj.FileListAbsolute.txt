@@ -1,11 +1,16 @@
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.BusinessLogic.deps.json
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.BusinessLogic.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.BusinessLogic.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.Core.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.Domain.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.Core.pdb
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\bin\Debug\net7.0\GoNavals.Domain.pdb
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.csproj.AssemblyReference.cache
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.AssemblyInfoInputs.cache
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.AssemblyInfo.cs
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.csproj.CopyComplete
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\refint\GoNavals.BusinessLogic.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.BusinessLogic\obj\Debug\net7.0\GoNavals.BusinessLogic.pdb

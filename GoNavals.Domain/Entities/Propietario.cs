@@ -6,7 +6,7 @@
         public string? Cedula_Pasaporte { get; set; }
         public string? Nombre { get; set; }
         public string? Apellidos { get; set; }
-        public int IdPais { get; set; }
+        public int PaisId { get; set; }
         public string? Direccion { get; set; }
         public string? Email { get; set; }
         public long Telefono { get; set; }

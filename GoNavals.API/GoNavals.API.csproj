@@ -23,6 +23,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GoNavals.BusinessLogic\GoNavals.BusinessLogic.csproj" />
+    <ProjectReference Include="..\GoNavals.Core\GoNavals.Core.csproj" />
     <ProjectReference Include="..\GoNavals.Domain\GoNavals.Domain.csproj" />
   </ItemGroup>
 
