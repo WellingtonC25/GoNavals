@@ -16,6 +16,7 @@ using GoNavals.BusinessLogic.Services.Zona;
 using GoNavals.Core;
 using GoNavals.Core.Interfaces;
 using Microsoft.EntityFrameworkCore.Query.Internal;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,15 @@ builder.Services.AddScoped<IRangoService, RangoService>();
 builder.Services.AddScoped<ITipoUsoService, TipoUsoService>();
 builder.Services.AddScoped<IZonaService, ZonaService>();
 builder.Services.AddDbContext<GoNavals.Domain.DataContext>();
+builder.Services.AddCors();
+
+ builder.Services.AddMvc().AddNewtonsoftJson(o =>
+{
+    o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+});
+
+builder.Services.AddControllers(
+options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 
 var app = builder.Build();
 
@@ -51,6 +61,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors(options =>
+{
+    options.WithOrigins("http://localhost:3000");
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+});
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

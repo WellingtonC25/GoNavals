@@ -6935,7 +6935,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "GoNavals.Core >= 1.0.0"
+      "GoNavals.Core >= 1.0.0",
+      "System.Linq >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -6980,6 +6981,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "System.Linq": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

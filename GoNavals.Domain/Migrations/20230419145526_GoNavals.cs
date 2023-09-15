@@ -33,7 +33,7 @@ namespace GoNavals.Domain.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Descripcion = table.Column<string>(type: "nvarchar(200)", nullable: true),
                     TipoCurso = table.Column<string>(type: "nvarchar(200)", nullable: true),
-                    Origen = table.Column<bool>(type: "bit", nullable: false)
+                    Origen = table.Column<string>(type: "char(10)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -146,7 +146,7 @@ namespace GoNavals.Domain.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     RNC = table.Column<string>(type: "nvarchar(9)", nullable: true),
                     Descripcion = table.Column<string>(type: "nvarchar(200)", nullable: true),
-                    PaisId = table.Column<int>(type: "int", nullable: false),
+                    PaisId = table.Column<int>(type: "int", nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(200)", nullable: true),
                     Telefono1 = table.Column<string>(type: "nvarchar(10)", nullable: true),
                     Telefono2 = table.Column<string>(type: "nvarchar(10)", nullable: true),

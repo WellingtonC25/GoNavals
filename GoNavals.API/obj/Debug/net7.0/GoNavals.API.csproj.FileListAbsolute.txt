@@ -1,3 +1,9 @@
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.csproj.AssemblyReference.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.AssemblyInfoInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.AssemblyInfo.cs
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.csproj.CoreCompileInputs.cache
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\appsettings.json
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\GoNavals.API.exe
@@ -8,6 +14,8 @@ C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Humanizer.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -60,6 +68,7 @@ C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.Common.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.Configuration.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
@@ -69,6 +78,8 @@ C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.ProjectModel.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.Protocol.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Packable.dll
+C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Packable.newtonjson.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -261,13 +272,6 @@ C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\GoNavals.BusinessLogic.pdb
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\GoNavals.Core.pdb
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\bin\Debug\net7.0\GoNavals.Domain.pdb
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.csproj.AssemblyReference.cache
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.AssemblyInfoInputs.cache
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.AssemblyInfo.cs
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.csproj.CoreCompileInputs.cache
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\GoNavals.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\staticwebassets\msbuild.GoNavals.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\staticwebassets\msbuild.build.GoNavals.API.props
 C:\Users\well-\source\repos\Embarcaciones\GoNavals\GoNavals.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GoNavals.API.props

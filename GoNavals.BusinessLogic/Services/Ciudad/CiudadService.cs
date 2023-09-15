@@ -8,8 +8,8 @@ namespace GoNavals.BusinessLogic.Services.Ciudad
     public class CiudadService : ICiudadService
     {
         private readonly Domain.DataContext _dbContext;
-
-        List<Domain.Ciudad> _ciudad = new List<Domain.Ciudad>();
+        List<GoNavals.Domain.Ciudad>  ciudades = new List<GoNavals.Domain.Ciudad>();
+        List<GoNavals.Domain.Pais>  paises = new List<GoNavals.Domain.Pais>();
 
         public CiudadService(Domain.DataContext dbContext)
         {
@@ -41,9 +41,15 @@ namespace GoNavals.BusinessLogic.Services.Ciudad
             return ciudad;
         }
        
-        public async Task<IEnumerable<Domain.Ciudad>?> GetAllCiudades()
+        public async Task< IEnumerable<object>?> GetAllCiudades()
         {
-            return await _dbContext.Ciudad.ToListAsync(); ;
+            var ciudadPais = _dbContext.Ciudad.Join(_dbContext.Pais, c => c.PaisId, p => p.Id, (ciudad,pais) => new
+            {
+                Ciudad = ciudad,
+                Pais = pais
+            });
+
+            return await ciudadPais.ToListAsync();
         }
 
         public  async Task<Domain.Ciudad?> GetSingleCiudad(int id)

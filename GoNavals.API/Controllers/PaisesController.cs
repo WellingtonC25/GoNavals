@@ -50,7 +50,7 @@ namespace GoNavals.API.Controllers
 
         // PUT api/<PaisesController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<Domain.Pais>> PostPais(int id, Domain.Pais pais)
+        public async Task<ActionResult<Domain.Pais>> EditPais([FromRoute]  int id,[FromBody] Domain.Pais pais)
         {
             var paisResult = await _paisService.UpdatePais(id, pais);
 

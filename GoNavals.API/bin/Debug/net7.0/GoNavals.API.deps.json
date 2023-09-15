@@ -11,12 +11,14 @@
           "GoNavals.BusinessLogic": "1.0.0",
           "GoNavals.Core": "1.0.0",
           "GoNavals.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.5",
           "Microsoft.AspNetCore.OpenApi": "7.0.2",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.5",
+          "Packable.newtonjson": "2.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -62,6 +64,31 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.JsonPatch/7.0.5": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.523.17410"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.5": {
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "7.0.5",
+          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "7.0.5.0",
+            "fileVersion": "7.0.523.17410"
           }
         }
       },
@@ -1397,6 +1424,17 @@
           }
         }
       },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
       "NuGet.Common/6.3.1": {
         "dependencies": {
           "NuGet.Frameworks": "6.3.1"
@@ -1495,6 +1533,26 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {
             "assemblyVersion": "6.3.1.1",
             "fileVersion": "6.3.1.1"
+          }
+        }
+      },
+      "Packable/6.2.0": {
+        "runtime": {
+          "lib/netcoreapp2.2/Packable.dll": {
+            "assemblyVersion": "0.6.2.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Packable.newtonjson/2.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Packable": "6.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Packable.newtonjson.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -2364,7 +2422,8 @@
       },
       "GoNavals.BusinessLogic/1.0.0": {
         "dependencies": {
-          "GoNavals.Core": "1.0.0"
+          "GoNavals.Core": "1.0.0",
+          "System.Linq": "4.3.0"
         },
         "runtime": {
           "GoNavals.BusinessLogic.dll": {}
@@ -2415,6 +2474,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.JsonPatch/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WTD0lUlrQEHF0eWlnwJJgBYK1WDI2KHeCLi46YY0mTOebwg+58l/lj+A3EerwC0aMyTB/yLaamjkCRRDVupCeA==",
+      "path": "microsoft.aspnetcore.jsonpatch/7.0.5",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.7.0.5.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/7.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOhqXibiA14gy0rFkvvSp0BYnz3lsZ82R9vXJ3H+KCz+TXWIjP6wuqwc97bc00ppCB2oK4jQbii+q9phv18WAg==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/7.0.5",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.7.0.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.2": {
       "type": "package",
@@ -2920,6 +2993,13 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
     "NuGet.Common/6.3.1": {
       "type": "package",
       "serviceable": true,
@@ -2982,6 +3062,20 @@
       "sha512": "sha512-T/igBDLXCd+pH3YTWgGVNvYSOwbwaT30NyyM9ONjvlHlmaUjKBJpr9kH0AeL+Ado4EJsBhU3qxXVc6lyrpRcMw==",
       "path": "nuget.versioning/6.3.1",
       "hashPath": "nuget.versioning.6.3.1.nupkg.sha512"
+    },
+    "Packable/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZXdZF5AbQD7iuNXiCPgphoyjoMRQEj9/KLShkv4kmQeaEl7w38365KyP8C+y1rRDMAe4fJvA88//aaBqBvD8Sg==",
+      "path": "packable/6.2.0",
+      "hashPath": "packable.6.2.0.nupkg.sha512"
+    },
+    "Packable.newtonjson/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RVOiNvByTU+NXyVA2Kp5nP5Kwu5Twe+ALOYdXuE23HXZVMWbeobYhB++UkdFB6NRKuUvgTyC5P+d9p3ONnj5oA==",
+      "path": "packable.newtonjson/2.0.0",
+      "hashPath": "packable.newtonjson.2.0.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

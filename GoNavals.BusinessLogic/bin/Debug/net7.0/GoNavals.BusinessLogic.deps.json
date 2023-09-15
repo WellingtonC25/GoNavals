@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "GoNavals.BusinessLogic/1.0.0": {
         "dependencies": {
-          "GoNavals.Core": "1.0.0"
+          "GoNavals.Core": "1.0.0",
+          "System.Linq": "4.3.0"
         },
         "runtime": {
           "GoNavals.BusinessLogic.dll": {}

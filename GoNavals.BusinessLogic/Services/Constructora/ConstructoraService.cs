@@ -2,6 +2,8 @@
 using GoNavals.Core.Interfaces;
 using GoNavals.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Threading.Tasks;
 
 namespace GoNavals.BusinessLogic.Services.Constructora
 {
@@ -38,10 +40,14 @@ namespace GoNavals.BusinessLogic.Services.Constructora
             return constructora;
         }
 
-        public async Task<IEnumerable<Domain.Constructora>> GetAllConstructoras()
+        public async Task<List<Domain.Constructora>> GetAllConstructoras()
         {
-            return await _dataContext.Constructora.ToListAsync();
-        }
+            var constructora =  await _dataContext.Constructora
+               .Include(c => c.Pais)
+               .ToListAsync();
+
+            return constructora;
+       }
 
         public async Task<Domain.Constructora?> GetSingleConstructora(int id)
         {
